@@ -31,9 +31,12 @@ The project uses the following technologies:
 The project is implemented in the following steps:
 
 1. **Dice Recognition:** We use the camera to capture an image of the dice. The image is then processed to extract the dot pattern on the dice. We use image processing techniques to enhance the image and extract the dot pattern.
-2. **Dot Recognition:** Once we have the dot pattern, we use the FFT algorithm to extract the frequency information from the dot pattern. We then use a neural network to classify the dot pattern based on the frequency information.
-3. **Speech Recognition:** We use the microphone to capture the player's commands. The audio data is then processed using the Audio Toolbox to extract the speech features. We then use a neural network that uses the FFT coefficients to recognize specific words.
-4. **Game Play:** We integrate the image processing and speech recognition systems to enable players to play a digital version of Snakes and Ladders. The player rolls the dice using the camera, and the dot pattern is recognized using the FFT and neural network. The player's commands are recognized using the microphone and neural network, and the game board is updated accordingly.
+
+![Dice Recognition](figures/dice_count3.jpg)
+
+3. **Dot Recognition:** Once we have the dot pattern, we use the FFT algorithm to extract the frequency information from the dot pattern. We then use a neural network to classify the dot pattern based on the frequency information.
+4. **Speech Recognition:** We use the microphone to capture the player's commands. The audio data is then processed using the Audio Toolbox to extract the speech features. We then use a neural network that uses the FFT coefficients to recognize specific words.
+5. **Game Play:** We integrate the image processing and speech recognition systems to enable players to play a digital version of Snakes and Ladders. The player rolls the dice using the camera, and the dot pattern is recognized using the FFT and neural network. The player's commands are recognized using the microphone and neural network, and the game board is updated accordingly.
 
 ## Conclusion
 
